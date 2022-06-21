@@ -1,0 +1,81 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<!DOCTYPE>
+<html>
+  <head>
+    <title>Form Project</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+  </head>
+  <body class="black-background parent font">
+   <div class="parent-1 q-width border">
+    <div id="title-div" class="child-h c-width">
+      <h1 id="title">Random form</h1>
+    </div>
+    <div class="child-h c-width">
+      <p id="description">Please fill out this form</p>
+    </div>
+    <div class="child c-width">
+      <form id="survey-form" action="">
+        <div class="child">
+          <label id="name-label" for="name">Name:  
+            <input class="font" id="name" type="text" placeholder="E.g. John Johnson" required>
+          </label>
+        </div>
+        <div class="child"> 
+          <label id="email-label" for="email">Email:
+            <input class="font" id="email" type="email" placeholder="ExampleEmail@gmail.com" required>
+          </label>
+        </div> 
+        <div class="child">
+          <label id="number-label" for="number">Age:
+            <input class="font" id="number" type="number" min="0" max="110" placeholder="E.g. 18">
+          </label>
+        </div>
+        <div class="child">
+          <label for="dropdown">How skilled are you in programming?</label>
+            <select class="font" id = "dropdown">
+              <option value = "noob">Beginner</option>
+              <option value = "moderate">Moderately skilled</option>
+              <option value = "advanced">Advanced</option>
+              <option value = "pro">Pro</option>
+            </select>
+        </div>
+        <div class="child">
+          <fieldset class="fieldset">
+            <legend>Do you want to learn how to code?</legend>
+            <label id="label-yes" for="yes">Yes</label>
+              <input class="f-input" id="yes" type="radio" name="yes-no-maybe" value="yes">
+            </label>
+            <label id="label-no" for="no">No</label>
+              <input class="f-input" id="no" type="radio" name="yes-no-maybe" value="no">
+            </label>
+            <label id="label-maybe" for="maybe">Maybe</label>
+              <input class="f-input" id="maybe" type="radio" name="yes-no-maybe" value="maybe">
+            </label>
+          </fieldset> 
+        </div>
+        <div class="child">
+          <fieldset class="fieldset">
+            <legend>What do you want to learn?</legend>
+            <label id="label-html-css" for="html-css">HTML/CSS</label>
+              <input id="html-css" type="checkbox" name="languages" value="html-css">
+            <label id="label-c" for="c++">C++</label>
+              <input id="c++" type="checkbox" name="languages" value="c++">
+            <label id="label-python" for="python">Python</label>
+              <input id="python" type="checkbox" name="languages" value="python">
+            <label id="label-java" for="java">Java</label>
+              <input id="java" type="checkbox" name="languages" value="java">
+          </fieldset>
+        </div>
+        <div class="child">
+          <textarea class="font" placeholder="Suggestions"></textarea>
+        </div>
+        <div class="child">
+          <button class="font" id="submit" type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+</div>
+  </body>
+</html>

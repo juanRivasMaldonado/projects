@@ -1,0 +1,139 @@
+/*font-family: 'Press Start 2P', cursive;*/
+
+.black-background {
+    background-color: #000000;
+  }
+  
+  div {
+      background-color: #000000;
+  }
+  
+  /*.title-block {
+    display: inline-block;
+    text-align: center;
+    padding: 0.4em;
+    margin: auto;
+  }*/
+  
+  .parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .parent-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .child {
+    display: flex;
+    flex: 1 1 100%;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: strecth;
+    margin: 2% 5% 2% 5%;
+  }
+  
+  .child-h {
+    display: flex;
+    flex: 1 1 100%;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;
+  }
+  @media screen and (min-width: 800px) {
+  
+    
+    .q-width {
+    width: 55%;
+  }
+  
+  .c-width {
+    width: 90%;
+  }
+  
+  }  
+   
+  @media screen and (max-width: 800px) {
+  
+    
+    .q-width {
+    width: 95%;
+  }
+  
+  .c-width {
+    width: 90%;
+  }
+  
+  }  
+  
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .fieldset {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .f-input {
+    margin-left: -8%;
+  }
+  
+  .border {
+    border-style: solid;
+    border-width: 5%;
+    border-color: #FFFFFF;
+    border-radius: 5%;
+  }
+  
+  .font {
+    font-family: 'Press Start 2P', cursive;
+    color: #FFF;
+  }
+  
+  
+  /* Checkbox-Radio hover */
+  #label-html-css:hover {
+    color: #39FF14;
+  }
+  #label-c:hover {
+    color: #39FF14;
+  }
+  #label-python:hover {
+    color: #39FF14;
+  }
+  #label-java:hover {
+    color: #39FF14;
+  }
+  #label-yes:hover {
+    color: #39FF14;
+  }
+  #label-no:hover {
+    color: #39FF14;
+  }
+  #label-maybe:hover {
+    color: #39FF14;
+  }
+  #submit:hover {
+    color: #39FF14;
+  }
+  
+  select {
+    background-color: #999;
+  }
+  button {
+    background-color: #999;
+  }
+  input {
+    background-color: #999;
+  }
+  textarea {
+    background-color: #999;
+  }
